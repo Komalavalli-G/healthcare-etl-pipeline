@@ -1,0 +1,6 @@
+patient_id,name,age,city
+1,John,30,Chennai
+2,,45,Bangalore
+3,Alice,,Hyderabad
+4,Bob,29,
+5,John,30,Chennai
