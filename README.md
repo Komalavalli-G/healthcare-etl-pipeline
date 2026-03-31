@@ -1,27 +1,35 @@
 # Healthcare ETL Pipeline
 
 ## Overview
-This project demonstrates a real-world ETL pipeline using Python to process healthcare data.
+This project demonstrates a real-world ETL pipeline designed to process and clean healthcare patient data using Python.
 
 ## Architecture
 Extract → Transform → Load
 
+## Workflow
+1. Extract data from CSV files
+2. Perform data cleaning (null handling, duplicates removal)
+3. Apply data validation checks
+4. Generate cleaned output dataset
+
 ## Features
-- Data extraction from CSV files
-- Data cleaning (null handling, duplicates removal)
-- Data validation and quality checks
-- Logging and error handling
-- Output generation
+- Data Quality Checks
+- Duplicate Removal
+- Missing Value Handling
+- Logging and Error Handling
 
 ## Tech Stack
-- Python
-- Pandas
-- SQL (concepts)
+- Python (Pandas)
+- SQL (conceptual)
+- ETL Pipeline Design
 
 ## Future Enhancements
 - Integration with PostgreSQL
-- Scheduling using Airflow
-- Cloud deployment (AWS/Azure)
+- Scheduling with Airflow
+- Cloud deployment (Azure/AWS)
+
+## Use Case
+Simulates healthcare data processing pipelines used in real-world systems for analytics and reporting.
 
 ## Author
 Komalavalli G
